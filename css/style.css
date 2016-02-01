@@ -1,0 +1,14 @@
+.filmList article img{
+	float:left;
+	height:200px;
+	width:150px;
+	margin:4px;
+}
+.filmList article{
+	clear:both;
+	margin:6px 0;
+}
+.filmList article .actions{
+	float:right;
+	border:dashed red 1px;
+}

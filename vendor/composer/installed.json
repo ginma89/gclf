@@ -1,0 +1,138 @@
+[
+    {
+        "name": "packaged/helpers",
+        "version": "1.1.5",
+        "version_normalized": "1.1.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/packaged/helpers.git",
+            "reference": "a0e09ff3858d502b88ba32bf329ed0cf2e67dc23"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/packaged/helpers/zipball/a0e09ff3858d502b88ba32bf329ed0cf2e67dc23",
+            "reference": "a0e09ff3858d502b88ba32bf329ed0cf2e67dc23",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.6"
+        },
+        "time": "2015-10-21 17:00:25",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Packaged\\Helpers\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brooke Bryan",
+                "email": "brooke@bajb.net"
+            }
+        ],
+        "description": "Generic PHP Helper Classes"
+    },
+    {
+        "name": "jleagle/curl-wrapper",
+        "version": "0.1.3",
+        "version_normalized": "0.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Jleagle/curl-wrapper.git",
+            "reference": "9507ab4ca5ff05a5354c6ecb43780177d48e491d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Jleagle/curl-wrapper/zipball/9507ab4ca5ff05a5354c6ecb43780177d48e491d",
+            "reference": "9507ab4ca5ff05a5354c6ecb43780177d48e491d",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "packaged/helpers": "~1.1",
+            "php": ">=5.4"
+        },
+        "time": "2015-11-28 02:49:10",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Jleagle\\CurlWrapper\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Eagle",
+                "email": "jimeagle@gmail.com",
+                "homepage": "http://jimeagle.com"
+            }
+        ],
+        "description": "An object oriented wrapper around cURL",
+        "keywords": [
+            "curl",
+            "wrapper"
+        ]
+    },
+    {
+        "name": "jleagle/omdb-imdb-api-client",
+        "version": "0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Jleagle/omdb-imdb-api-client.git",
+            "reference": "8fd37f23e3cd99d08895b987f0230ebd2d4ded22"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Jleagle/omdb-imdb-api-client/zipball/8fd37f23e3cd99d08895b987f0230ebd2d4ded22",
+            "reference": "8fd37f23e3cd99d08895b987f0230ebd2d4ded22",
+            "shasum": ""
+        },
+        "require": {
+            "jleagle/curl-wrapper": "~0.1",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~5.0"
+        },
+        "time": "2015-11-28 12:14:36",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Jleagle\\Imdb\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Eagle",
+                "email": "jimeagle@gmail.com",
+                "homepage": "http://jimeagle.com"
+            }
+        ],
+        "description": "A package to retrieve movies and TV information from IMDB using the API at omdbapi.com",
+        "keywords": [
+            "api",
+            "client",
+            "helper",
+            "imdb",
+            "omdb"
+        ]
+    }
+]

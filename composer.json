@@ -1,0 +1,13 @@
+{
+    "name": "etudiant/gcif",
+    "description": "Gestion copies legales film",
+    "require": {
+        "jleagle/omdb-imdb-api-client": "^0.1.0"
+    },
+    "authors": [
+        {
+            "name": "Max GINTER",
+            "email": "max@ginter-wersant.lu"
+        }
+    ]
+}
